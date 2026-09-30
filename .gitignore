@@ -1,0 +1,63 @@
+# --- Env / secretos ---
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.env.local
+
+# --- Node ---
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+backend/dist/
+*.tsbuildinfo
+
+# --- Flutter / Dart ---
+.dart_tool/
+**/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+**/build/
+coverage/
+**/.pub/
+
+# --- Android ---
+.gradle/
+**/.gradle/
+local.properties
+**/local.properties
+captures/
+**/.cxx/
+*.jks
+*.keystore
+*.p12
+*.key
+*.pem
+key.properties
+google-services.json
+
+# --- Builds generados ---
+*.apk
+*.aab
+*.ipa
+
+# --- IDE ---
+.idea/
+.vscode/
+*.iml
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Logs y temporales ---
+*.log
+*.swp
+.turbo/
+.nyc_output/
